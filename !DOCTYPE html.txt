@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Maqueta</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #38bdf8;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: #94a3b8;
+            font-size: 14px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #334155;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #f43f5e;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        p, li {
+            line-height: 1.6;
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .badge {
+            display: inline-block;
+            background: #334155;
+            color: #38bdf8;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <span class="badge">Escuela 4-130 Jorge de la Reta</span>
+        <h1>Presentación de Maqueta</h1>
+        <div class="subtitle">Detalles técnicos y descripción del proyecto</div>
+
+        <h2>📌 Descripción General</h2>
+        <p>Aquí puedes explicar de qué trata tu maqueta, cuál es su objetivo principal y cómo funciona el sistema o estructura representada.</p>
+
+        <h2>⚙️ Materiales y Componentes</h2>
+        <ul>
+            <li>Estructura base (madera, cartón, etc.)</li>
+            <li>Conexiones y circuitería (si aplica)</li>
+            <li>Elementos decorativos y acabados</li>
+        </ul>
+
+        <h2>🔧 Funcionamiento</h2>
+        <p>Detalla el proceso de diseño, los planos o esquemas utilizados (como los que se practican en CAD) y cómo se armó paso a paso.</p>
+    </div>
+
+</body>
+</html>
