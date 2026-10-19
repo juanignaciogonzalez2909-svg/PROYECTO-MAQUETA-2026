@@ -22,7 +22,39 @@
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
         }
-        .badge {
+        .badge {<!-- PROYECTO 3 -->
+        <div class="project-card">
+            <h2>🔭 3. Observatorio Astronómico Automatizado</h2>
+            <p>Maqueta que integra sistemas electrónicos, mecanismos móviles e iluminación para representar las funciones principales de un observatorio real, utilizando placas Arduino como unidad central de control.</p>
+
+            <div class="specs">
+                <strong>📐 Estructura y Dimensiones:</strong> Base cuadrada de 45 × 45 cm | Paredes perimetrales de 15 cm de altura.
+            </div>
+
+            <!-- SUBSECCIÓN 3.1 -->
+            <h3>🌌 3.1. Visualización de Constelaciones (Pantalla OLED)</h3>
+            <p>Sistema gráfico en pantalla OLED de 128×64 px que dibuja progresivamente las estrellas y líneas de constelaciones como Orión, Cruz del Sur, Casiopea y Osa Mayor al seleccionarlas desde un menú interactivo con pulsadores.</p>
+
+            <!-- SUBSECCIÓN 3.2 -->
+            <h3>🌙 3.2. Representación de Fases Lunares</h3>
+            <p>Simulación gráfica de ocho fases lunares (desde Luna nueva hasta llena/menguante) mediante sombreado y mapa de píxeles en pantalla monocromática.</p>
+
+            <!-- SUBSECCIÓN 3.3 -->
+            <h3>🔭 3.3. Movimiento Automatizado del Telescopio</h3>
+            <p>Mecanismo de orientación en dos ejes accionado por servomotores y controlado mediante Arduino, con rango delimitado para evitar movimientos fuera de límite.</p>
+
+            <!-- SUBSECCIÓN 3.4 -->
+            <h3>💡 3.4. Sistema de Iluminación de Cielo Estrellado</h3>
+            <p>Iluminación decorativa puntual mediante tiras de micro-LEDs integradas en PCB con reguladores/potenciómetros e interruptores para simular el firmamento.</p>
+
+            <!-- SUBSECCIÓN 3.5 & 3.6 -->
+            <h3>🖥️ 3.5 & 3.6. Interfaz Gráfica y Pantalla Informativa LCD</h3>
+            <p>Combinación de pantalla OLED (para gráficos/animaciones) y pantalla <strong>LCD 16x2 (I2C)</strong> para mostrar información astronómica complementaria (estrellas principales, época de observación y hemisferio).</p>
+
+            <!-- INTEGRACIÓN -->
+            <h3>🔌 3.7. Integración General del Sistema</h3>
+            <p>Arquitectura modular controlada por Arduino que coordina la respuesta de botones, servomotores, tiras LED y ambas pantallas en tiempo real.</p>
+        </div>
             display: inline-block;
             background: #334155;
             color: #38bdf8;
